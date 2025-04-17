@@ -7,11 +7,11 @@ import com.Helper.Base;
 
 public class LoginPage extends Base {
 
-	By username = By.xpath("//input[@id='user-name']");
-	By password = By.xpath("//input[@id='password']");
-    By loginBtn = By.xpath("//input[@id='login-button']");
-    By HeadingName = By.xpath("//span[@class='title']");
-    By ErrorMsg =By.xpath("//div[@class='error-message-container error']");
+	By username = By.xpath("//input[@id='txtUsername']");
+	By password = By.xpath("//input[@id='txtPassword']");
+    By loginBtn = By.xpath("//button[@id='btnLogin']");
+    By HeadingName = By.xpath("//li[@class='menu-title']");
+    By ErrorMsg =By.xpath("//div[@class='col-lg-12 text-center text-danger']");
 	public void startApplication() {
 		setup();
 	}

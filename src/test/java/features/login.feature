@@ -1,19 +1,19 @@
 
-Feature: Title of your feature
+Feature: Login e-care Webapplication
   
  
   
   @Regression
-  Scenario: verify login with multiple set of data
+  Scenario: verify user login with valid input data
   
   Given user launch site url
-  When user enter username "standard_user" and password "secret_sauce"
+  When user enter username "sf001" and password "Francis1988"
   And user click on login button
-  Then validate user successfully with heading "Products"
+  Then validate user successfully with heading "Menu"
   
 @Regression
-  Scenario: verify login with invalid input data
+  Scenario: verify user login with invalid input data
    Given user launch site url
    When user enter username "user1" and password "pass1"
-    And user click on login button
-    Then validate error is displayed
+   And user click on login button
+   Then validate error is displayed
