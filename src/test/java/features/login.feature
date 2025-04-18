@@ -3,9 +3,8 @@ Feature: Login e-care Webapplication
   
  
   
-  @Regression
+ @Regression
   Scenario: verify user login with valid input data
-  
   Given user launch site url
   When user enter username "sf001" and password "Francis1988"
   And user click on login button
